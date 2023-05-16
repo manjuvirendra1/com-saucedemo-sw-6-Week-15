@@ -1,0 +1,128 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2800159600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "I can observe that six products are display on page",
+        "description": "",
+        "id": "login-test;i-can-observe-that-six-products-are-display-on-page",
+        "after": [
+          {
+            "result": {
+              "duration": 583157100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49810800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97968400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.iEnterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46807400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "secret_sauce",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62337700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16626500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I can observe that six products are display on page",
+            "match": {
+              "location": "LoginSteps.iCanObserveThatSixProductsAreDisplayOnPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "As user I want to login into saucedemo website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
